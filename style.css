@@ -1,0 +1,60 @@
+body{
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/886/432/889/anime-cardcaptor-sakura-sakura-kinomoto-wallpaper-preview.jpg);
+    background-repeat: repeat;
+    background-position: right top;
+    font-family: 'Indie Flower', cursive;
+}
+
+.header{
+    
+    font-size: 30px;
+    max-width: 100%;
+    margin: auto;
+    opacity: 0.9;
+    color: #ff66ff;
+    text-align: center;
+    text-decoration-line: underline;
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(https://images.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvam9iNDA1LW1hZXdoLTAyYy0wMS5wbmc.png?s=96v0sGoRB9cQfX2cijury9lQ29nuaIfStVGaioa0WOA) 50 stretch;
+}
+
+main{
+    display: flex;
+    flex-wrap:  wrap;
+    justify-content: center;
+    margin: 40px 0px;
+}
+
+
+.tarjeta{ 
+    display: flex;
+    background-color: transparent;
+    width: 600px;
+    border: 5px double rgb(51, 51, 0);
+    border-radius: 10px;
+    margin: 5px;
+    overflow: hidden;
+}
+
+.personaje{
+
+    width: 100%;
+    color: rgb(204, 102, 102);
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.footer{
+    background-color: transparent;
+    border: 3px solid rgb(74, 56, 31);
+    text-align: center;
+    color: antiquewhite;
+}
+
+.a{
+    color: yellow;
+}
